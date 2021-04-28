@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle Inspection Report</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <section id="form" class="text-center">
+    <div class="container">
+      <div class="row  pt-5">
+        <div class="col">
+          <ul>
+            <li><h5>Boss Logistics LLC</h5></li>
+            <li><h6>4918 River Glen Dr</h6></li>
+            <li><h6>Las Vegas NV 89103</h6></li>
+            <li><h6>(702) 490 2360</h6></li>
+          </ul>
+        </div>
+        <div class="col pt-4">
+          <input type="text" class="form-control" placeholder="Order">
+        </div>
+        <div class="col">
+          <img src="./WhatsApp Image 2021-04-27 at 7.14.38 PM.jpeg" alt="">
+        </div>
+      </div>
+    </div>
+    <!--  Vehicle inspection  -->
+      <div class="container pt-4">
+        <h1>Vehicle Inspection Report</h1>
+        <form>
+        <h2 class="mt-4">Origin</h2>
+        <div class="row p-3">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+        </div>
+        <div class="form-row p-3">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="City">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="State">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Zip">
+          </div>
+        </div>
+        <div class="row p-3">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Contact">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Phone Number">
+          </div>
+        </div>
+        <h2 class="mt-3">Destination</h2>
+        <div class="row p-3">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+        </div>
+        <div class="form-row p-3">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="City">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="State">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Zip">
+          </div>
+        </div>
+        <div class="row p-3">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Contact">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Phone Number">
+          </div>
+        </div>
+        <h2 class="mt-3">Vehicle Report</h2>
+        <div class="row p-3">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Make">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Model">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Year">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Color">
+          </div>
+        </div>
+        <div class="form-row p-3">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Vin#">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Plate#">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Mileage">
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col">
+            <p>Headlight</p>
+            <input type="radio" id="Pass" name="Headlight" value="Pass">
+            <label for="Pass">Pass</label><br>
+            <input type="radio" id="Fail" name="Headlight" value="Fail">
+            <label for="Fail">Fail</label><br>
+          </div>
+          <div class="col">
+            <p>Taillight</p>
+            <input type="radio" id="Pass" name="Taillight" value="Pass">
+            <label for="Pass">Pass</label><br>
+            <input type="radio" id="Fail" name="Taillight" value="Fail">
+            <label for="Fail">Fail</label><br>
+          </div>
+          <div class="col">
+            <p>Windshield</p>
+            <input type="radio" id="Pass" name="Windshield" value="Pass">
+            <label for="Pass">Pass</label><br>
+            <input type="radio" id="Fail" name="Windshield" value="Fail">
+            <label for="Fail">Fail</label><br>
+          </div>
+        </div>
+        <div class="row px-5 mt-4">
+          <div class="col-4"><div class="input-group mb-3">
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="inputGroupFile02">
+              <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+            </div>
+            <div class="input-group-append">
+              <span class="input-group-text" id="">Upload</span>
+            </div>
+          </div></div>
+          <div class="col-4"><div class="input-group mb-3">
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="inputGroupFile02">
+              <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+            </div>
+            <div class="input-group-append">
+              <span class="input-group-text" id="">Upload</span>
+            </div>
+          </div></div>
+          <div class="col-4"><div class="input-group mb-3">
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="inputGroupFile02">
+              <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+            </div>
+            <div class="input-group-append">
+              <span class="input-group-text" id="">Upload</span>
+            </div>
+          </div></div>
+          <div class="col-4"><div class="input-group mb-3">
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="inputGroupFile02">
+              <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+            </div>
+            <div class="input-group-append">
+              <span class="input-group-text" id="">Upload</span>
+            </div>
+          </div></div>
+          <div class="col-4"><div class="input-group mb-3">
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="inputGroupFile02">
+              <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+            </div>
+            <div class="input-group-append">
+              <span class="input-group-text" id="">Upload</span>
+            </div>
+          </div></div>
+          <div class="col-4"><div class="input-group mb-3">
+            <div class="custom-file">
+              <input type="file" class="custom-file-input" id="inputGroupFile02">
+              <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+            </div>
+            <div class="input-group-append">
+              <span class="input-group-text" id="">Upload</span>
+            </div>
+          </div></div>
+        </div>
+        <div class="row">
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="REMARKS"></textarea>
+        </div>
+        <div class="row">
+        <div class="col-5 form-check align-left mt-4">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            By checking the box I agree to the <a href="terms.html"> Terms & Conditions</a>
+          </label>
+        </div>
+      </div>
+      <div class="form-row p-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Customer Name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Date">
+        </div>
+        <div class="col">
+          <canvas id="signature" width="300" height="30" placeholder="Signature"></canvas>
+        </div>
+      </div>
+      <div class="form-row p-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Driver Name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Date">
+        </div>
+        <div class="col">
+          <canvas id="signature" width="300" height="30" placeholder="Signature"></canvas>
+        </div>
+      </div>
+      </form>
+    </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!-- End Vehicle inspection -->
+  <section id="bol" class="my-4 text-center">
+    <h1 class="display-4 mt-4">This Side To Be Filed By The Driver</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container mt-4">
+    <form>
+      <h2 class="mt-4">Bill Of Landing</h2>
+      <h2 class="mt-4">Pick Up</h2>
+      <div class="row p-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name">
+        </div>
+      </div>
+      <div class="form-row p-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="City">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="State">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Zip">
+        </div>
+      </div>
+      <div class="row p-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Contact">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Phone Number">
+        </div>
+      </div>
+      <h2 class="mt-3">Destination</h2>
+      <div class="row p-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name">
+        </div>
+      </div>
+      <div class="form-row p-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="City">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="State">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Zip">
+        </div>
+      </div>
+      <div class="row p-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Contact">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Phone Number">
+        </div>
+      </div>
+      <h2 class="mt-3">Vehicle Report</h2>
+      <div class="row p-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Make">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Model">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Year">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Color">
+        </div>
+      </div>
+      <div class="form-row p-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Vin#">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Plate#">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Mileage">
+        </div>
+      </div>
+      <div class="row">
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="REMARKS"></textarea>
+      </div>
+      <div class="row">
+        <div class="col-5 form-check align-left mt-4">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          By checking the box I declear the above REMARKS 
+        </label>
+      </div>
+    </div>
+      <div class="row">
+      <div class="col-5 form-check align-left mt-4">
+        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+        <label class="form-check-label" for="defaultCheck1">
+          By checking the box I agree to the <a href="terms.html"> Terms & Conditions</a>
+        </label>
+      </div>
+    </div>
+    <div class="form-row p-3">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Customer Name">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Date">
+      </div>
+      <div class="col">
+        <canvas id="signature" width="300" height="30" placeholder="Signature"></canvas>
+      </div>
+    </div>
+    <div class="form-row p-3">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Driver Name">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Date">
+      </div>
+      <div class="col">
+        <canvas id="signature" width="300" height="30" placeholder="Signature"></canvas>
+      </div>
+    </div>
+    <a href="submit" class="btn btn-outline-dark mt-3">Submit</a>
+    </form>
+  </div>
+  </section>
+  <footer>
+    <div class="container text-center mt-4">
+      <div class="row mt-4">
+        <div class="col mt-4">
+          <p>© 2021 Copyright: BOSS LOGISTICS</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <!-- JS -->
+  <script src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
